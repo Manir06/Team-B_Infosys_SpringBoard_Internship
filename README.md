@@ -54,33 +54,6 @@ Team-B_Infosys_SpringBoard_Internship/
 | Axios | HTTP Client |
 | Recharts | Analytics Charts |
 | Tailwind CSS | Styling |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Java 17+
-- Node.js 18+
-- MySQL 8+
-- Maven 3.8+
-
-### Backend Setup
-```bash
-cd backend
-# Update src/main/resources/application.properties with your DB credentials
-mvn spring-boot:run
-```
-> API runs on `http://localhost:8080`
-
-### Frontend Setup
-```bash
-cd frontend
-npm install
-npm run dev
-```
-> App runs on `http://localhost:5173`
-
 ---
 
 ## 👥 Team
