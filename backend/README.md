@@ -1,4 +1,4 @@
-# Inventra - Intelligent Inventory Management System
+# Electrologix - Intelligent Inventory Management System
 
 A full-stack inventory management system with JWT-based authentication and role-based access control.
 
@@ -27,75 +27,12 @@ A full-stack inventory management system with JWT-based authentication and role-
 - JWT (JSON Web Tokens)
 - Maven
 
-#### Frontend
-- React 18
-- TypeScript
-- Tailwind CSS
-- React Router v6
-- Axios
-- Vite
-
 ## 📋 Prerequisites
 
 - Java 17 or higher
 - Maven 3.6+
 - Node.js 18+ and npm
 - MySQL 8.0+
-
-## 🛠️ Setup Instructions
-
-### Backend Setup
-
-1. **Navigate to backend directory:**
-   ```bash
-   cd Inventra_Intelligent_Inventory_Management_System_Backend
-   ```
-
-2. **Configure MySQL Database:**
-   - Create a MySQL database named `inventra_db` (or it will be auto-created)
-   - Update `src/main/resources/application.properties` if needed:
-     ```properties
-     spring.datasource.url=jdbc:mysql://localhost:3306/inventra_db
-     spring.datasource.username=root
-     spring.datasource.password=root
-     ```
-
-3. **Build and Run:**
-   ```bash
-   mvn clean install
-   mvn spring-boot:run
-   ```
-
-   The backend will start on `http://localhost:8080`
-
-### Frontend Setup
-
-1. **Navigate to frontend directory:**
-   ```bash
-   cd Inventra_Intelligent_Inventory_Management_System_Frontend
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Start development server:**
-   ```bash
-   npm run dev
-   ```
-
-   The frontend will start on `http://localhost:5173`
-
-## 🔐 Default User Credentials
-
-The system creates three default users on first startup:
-
-| Role    | Username | Password    | Email                |
-|---------|----------|-------------|----------------------|
-| ADMIN   | admin    | admin123    | admin@inventra.com   |
-| MANAGER | manager  | manager123  | manager@inventra.com |
-| STAFF   | staff    | staff123    | staff@inventra.com   |
 
 ## 🎯 API Endpoints
 
@@ -149,19 +86,6 @@ src/main/java/com/inventra/inventory/
 ├── security/       # Security configuration
 └── service/        # Business logic
 ```
-
-### Frontend
-```
-src/
-├── components/     # Reusable components
-├── context/        # React Context (Auth)
-├── pages/          # Page components
-├── services/       # API services
-├── types/          # TypeScript types
-└── App.tsx         # Main app component
-```
-
-
 ## 👨‍💻 Author
 
 Created as part of the Inventra Intelligent Inventory Management System project by Team B.
