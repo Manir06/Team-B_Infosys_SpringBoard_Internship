@@ -161,25 +161,7 @@ src/
 └── App.tsx         # Main app component
 ```
 
-## 🚀 Building for Production
-
-### Backend
-```bash
-mvn clean package
-java -jar target/inventory-management-system-1.0.0.jar
-```
-
-### Frontend
-```bash
-npm run build
-```
-
-The production build will be in the `dist/` directory.
-
-## 📝 License
-
-This project is created for educational purposes.
 
 ## 👨‍💻 Author
 
-Created as part of the Inventra Intelligent Inventory Management System project.
+Created as part of the Inventra Intelligent Inventory Management System project by Team B.
